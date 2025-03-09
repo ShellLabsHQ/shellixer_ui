@@ -13,7 +13,9 @@ config :shellixer_ui, ShellixerUiWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
+
   secret_key_base: "Js0/CpInLZKf1iGGCA13USphzDlyCLb0ysi+FeYItAHJy3qg1jswanlLFdyhAVen",
+
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:shellixer_ui, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:shellixer_ui, ~w(--watch)]}

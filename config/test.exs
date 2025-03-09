@@ -4,7 +4,9 @@ import Config
 # you can enable the server option below.
 config :shellixer_ui, ShellixerUiWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "ku7bws37q4WO2cqbVCOhGLQNVkHfsWmpHnUmshX+ytbJQjay1YdUneyI2JQI4mxn",
+
+  secret_key_base: "wyLCIO8eKPWZVBhERDsGRB6q7Ucxk0YIYiVqN30CJrQ2BqTRkGH+blWpWWQGmYeq",
+
   server: false
 
 # In test we don't send emails

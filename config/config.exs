@@ -19,6 +19,7 @@ config :shellixer_ui, ShellixerUiWeb.Endpoint,
     layout: false
   ],
   pubsub_server: ShellixerUi.PubSub,
+
   live_view: [signing_salt: "gERse2uq"]
 
 # Configures the mailer

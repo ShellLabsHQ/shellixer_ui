@@ -17,8 +17,10 @@ defmodule ShellixerUiWeb.Router do
   scope "/", ShellixerUiWeb do
     pipe_through :browser
 
+    get "/", HomeController, :home
 
-    get "/", PageController, :home
+    get "/page", PageController, :home
+
 
   end
 

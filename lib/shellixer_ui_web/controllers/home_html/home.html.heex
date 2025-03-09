@@ -1,8 +1,61 @@
 <div class="text-amber-900 p-10">
   <h1 class="text-3xl font-bold">Welcome to ShellixerUI</h1>
+  
   <p class="mt-4 text-lg">Your component library is ready!</p>
+  
+  <.button_shx class="btn-soft btn-success btn-lg">
+    Button
+  </.button_shx>
 
-<.button_shx class="btn btn-primary"> 
-Button
-</.button_shx>
+
+
+<div class="space-y-4">
+  <!-- ✅ Default Accordion (Checkbox) -->
+  <.accordion_shx>
+    <:title>Click to Expand</:title>
+    <:content>This is the hidden content.</:content>
+  </.accordion_shx>
+
+  <!-- ✅ Accordion with Arrow Icon -->
+  <.accordion_shx icon="arrow">
+    <:title>Accordion with Arrow</:title>
+    <:content>Content inside this accordion.</:content>
+  </.accordion_shx>
+
+  <!-- ✅ Accordion with Plus/Minus Icon -->
+  <.accordion_shx icon="plus">
+    <:title>Accordion with Plus Icon</:title>
+    <:content>Content inside this section.</:content>
+  </.accordion_shx>
+
+  <!-- ✅ Open Accordion by Default -->
+  <.accordion_shx open={true}>
+    <:title>Always Open Accordion</:title>
+    <:content>This section stays open.</:content>
+  </.accordion_shx>
+
+  <!-- ✅ Accordion Using Radio Inputs (Single Selection) -->
+  <.accordion_shx group="faq">
+    <:title>How do I create an account?</:title>
+    <:content>Click "Sign Up" in the top right corner.</:content>
+  </.accordion_shx>
+  <.accordion_shx group="faq">
+    <:title>I forgot my password. What should I do?</:title>
+    <:content>Click "Forgot Password" on the login page.</:content>
+  </.accordion_shx>
+
+  <!-- ✅ Accordion Using "Join" for Seamless Styling -->
+  <div class="join join-vertical">
+    <.accordion_shx join={true} group="grouped">
+      <:title>First Question</:title>
+      <:content>Answer 1</:content>
+    </.accordion_shx>
+    <.accordion_shx join={true} group="grouped">
+      <:title>Second Question</:title>
+      <:content>Answer 2</:content>
+    </.accordion_shx>
+  </div>
+</div>
+
+
 </div>

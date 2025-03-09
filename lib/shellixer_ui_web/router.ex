@@ -17,11 +17,9 @@ defmodule ShellixerUiWeb.Router do
   scope "/", ShellixerUiWeb do
     pipe_through :browser
 
-<<<<<<< HEAD
+
     get "/", PageController, :home
-=======
-   
->>>>>>> f159439ccad47b8767dbe769afebd0c8c0a9dfa2
+
   end
 
   # Other scopes may use custom stacks.

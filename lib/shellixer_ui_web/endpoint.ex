@@ -7,11 +7,9 @@ defmodule ShellixerUiWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_shellixer_ui_key",
-<<<<<<< HEAD
+
     signing_salt: "SP7vDH7O",
-=======
-    signing_salt: "lDU4Ohn1",
->>>>>>> f159439ccad47b8767dbe769afebd0c8c0a9dfa2
+
     same_site: "Lax"
   ]
 

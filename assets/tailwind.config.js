@@ -11,6 +11,9 @@ module.exports = {
     "../lib/shellixer_ui_web.ex",
     "../lib/shellixer_ui_web/**/*.*ex"
   ],
+  daisyui: {
+    logs: false,
+  },
   theme: {
     extend: {
       colors: {
@@ -19,7 +22,8 @@ module.exports = {
     },
   },
   plugins: [
-    require("@tailwindcss/forms"),
+    require('daisyui'),
+    
     // Allows prefixing tailwind classes with LiveView classes to add rules
     // only when LiveView classes are applied, for example:
     //

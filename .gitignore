@@ -35,3 +35,5 @@ shellixer_ui-*.tar
 npm-debug.log
 /assets/node_modules/
 
+/lib/shellixer_ui_web/components/core_components
+

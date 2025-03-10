@@ -58,4 +58,43 @@
 </div>
 
 
+
+<!-- Avatar with image and default ring -->
+<.avatar_shx src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" class="w-12 h-12" />
+
+<!-- Avatar with custom ring color -->
+<.avatar_shx src="https://example.com/avatar.png" class="w-16 h-16" ring_color="ring-secondary ring-offset-gray-300" />
+
+<!-- Avatar with placeholder -->
+<.avatar_shx placeholder="AB" class="w-12 h-12 avatar-placeholder bg-neutral text-neutral-content" />
+
+<!-- Avatar with online status -->
+<.avatar_shx src="https://example.com/avatar.png" class="w-14 h-14" status="online" />
+
+<!-- Avatar with offline status -->
+<.avatar_shx src="https://example.com/avatar.png" class="w-14 h-14" status="offline" />
+
+
+
+
+
+
+
+
+<!-- Simple Avatar -->
+<.avatar_shx src="https://example.com/avatar.png" class="w-16 h-16" />
+
+<!-- Avatar with Status -->
+<.avatar_shx src="https://example.com/avatar.png" status="online" />
+
+<!-- Avatar Group -->
+<.avatar_shx_group avatars={[
+  %{src: "https://example.com/avatar1.png"},
+  %{src: "https://example.com/avatar2.png"},
+  %{placeholder: "AB"},
+  %{count: "+5"}
+]} />
+
+
+
 </div>

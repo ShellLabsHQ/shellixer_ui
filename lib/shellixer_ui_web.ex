@@ -95,6 +95,7 @@ defmodule ShellixerUiWeb do
 
       # shellixir components
       use ShellixerUI.Components
+      
 
       # Routes generation with the ~p sigil
       unquote(verified_routes())

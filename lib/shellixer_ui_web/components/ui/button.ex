@@ -1,4 +1,4 @@
-defmodule ShellixerUiWeb.Button do
+defmodule ShellixerUiWeb.Ui.Button do
   use Phoenix.Component
 
   attr :class, :string, default: ""
@@ -13,4 +13,3 @@ defmodule ShellixerUiWeb.Button do
     """
   end
 end
-

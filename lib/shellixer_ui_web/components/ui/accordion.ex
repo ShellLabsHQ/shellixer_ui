@@ -1,4 +1,4 @@
-defmodule ShellixerUiWeb.Accordion do
+defmodule ShellixerUiWeb.Ui.Accordion do
 
   use Phoenix.Component
 

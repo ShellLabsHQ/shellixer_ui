@@ -2,8 +2,12 @@ defmodule ShellixerUI.Components do
 
   defmacro __using__(_) do
     quote do
-        import ShellixerUiWeb.Button
-        import ShellixerUiWeb.Accordion
+        import ShellixerUiWeb.Ui.Button
+        import ShellixerUiWeb.Ui.Accordion
+        import ShellixerUiWeb.Ui.Avator
+        import ShellixerUiWeb.Ui.AvatarGroup
+
+
     end
   end
 
